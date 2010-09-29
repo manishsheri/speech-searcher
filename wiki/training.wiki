@@ -1,5 +1,5 @@
-#summary One-sentence summary of this page.
 #labels Phase-Deploy
+#Before using: Training
 
 = Introduction =
 This article is provided for the users that are installing the Speech Searcher for the first time. follow these steps before using the application to have the highest accuracy in understandability of the software.
