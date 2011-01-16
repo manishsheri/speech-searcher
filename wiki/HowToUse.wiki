@@ -4,7 +4,7 @@
 = Introduction =
 
 This wiki page includes information and guide on how to use the Speech Searcher.
-After successfully installing the application, go to the folder where it is installed and double click on "Speech_Seacher.exe"
+After successfully installing the application, go to the folder where it is installed and double click on the exe file.
 the application will start in a dialog box.
 List of buttons (features) within the dialog:
   * Start System: Initiates SR and loads the grammar - system is ready to use.
