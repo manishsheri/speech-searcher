@@ -1,0 +1,14 @@
+#labels Featured,Phase-Deploy
+#Info on training and how to do training.
+= Introduction =
+This article is provided for the users that are installing the Speech Searcher for the first time. follow these steps before using the application to have the highest accuracy in understandability of the software.
+In this article the process of training the system is explained.
+=Training=
+Windows OS family started to shift the Speech API (SAPI) with itself since Windows XP. The only difference between different OS's is the version of SAPI and functionalities they provide. Microsoft tried to increase the accuracy, performance and usability of speech recognition ever since.
+Since then, with every shipment, came along a software that was intended to train the user's computer for better understanding. Let's define understanding; in Speech Recognition, understanding is all about recognizing the correct phrase and acting accordingly. the more accurate a recognition is, the more likely it is to accomplish the request. In the other hand, SAPI has the ability to be trained. that is, a series of predefined phrases are given to the user, and the user starts to read this phrases. the reason of having predefined phrases is that, with this approach the engine knows what to listen for, and for every recognition the application stores the voice patterns of the user, and adapts itself to that voice pattern. In other words, the application is getting used to your voice, accent and rate of speech. With this kind of training, the accuracy of speech recognition is continually increasing.
+
+==How to train the engine:==
+In order to train the engine, go to Control panel and open Speech Recognition. Click on "Train your computer to better understand you" and follow the wizard. After each training session, the system is more accurate, thus increasing the accuracy of Speech Searcher in general.
+All data relevant to SR is stored as SR profile. This profile can be backed up and restored, this will do the same job as training again. By having a back up you're SR is always trained.
+Here you can download the Profile Manager software from Microsoft:
+[http://www.microsoft.com/downloads/en/details.aspx?DisplayLang=en&FamilyID=cd72250f-2e02-430e-8f99-e1acae760564]
