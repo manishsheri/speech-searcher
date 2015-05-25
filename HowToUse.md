@@ -1,0 +1,41 @@
+#how to use Speech Searcher:
+
+# Introduction #
+
+This wiki page includes information and guide on how to use the Speech Searcher.
+After successfully installing the application, go to the folder where it is installed and double click on the exe file.
+the application will start in a dialog box.
+List of buttons (features) within the dialog:
+  * Start System: Initiates SR and loads the grammar - system is ready to use.
+  * Mute: blocks the incoming data. useful for when the system is at idle.
+  * Candidate list: Candidates based on the recognition appears here, in order to select on.
+  * Stop system: unloads the grammar and disables SR.
+  * Status label: reports the status of the system.
+
+# Instructions #
+As the "Start System" button is clicked, the system is ready to use. choose where you want to do the search. the SR engine initiates by you saying "computer search" followed by the search engine. i.e. "computer search wikipedia".
+List of included search engines:
+  * Google
+  * Yahoo
+  * Wikipedia
+  * Piratebay
+  * Bing
+The system will report the regonized search engine. click on OK, and speak the phrase you want to search for. i.e.
+  * "Computer search google" - "apple"
+  * "Computer search wikipedia" - "book"
+  * "Computer search google" - "who decides my destiny?"
+  * "Computer search piratebay" - "infected mushroom"
+The system will report the recognized phrase and asks for your confirmation. you either confirm by voice or by clicking the desired button from the confirmation box.
+List of confirmation alternatives:
+  * Yes: Opens the browser and do the search for you.
+  * No | Spell: loads the spelling grammar so that you can spell the phrase, as you spell the status label updates itself to complete the word you want. Refer to Spelling section below for more information.
+  * No | Candidate: Lets you choose from the candidate list and do the search based on your selection.
+  * Cancel: Cancels the whole operation and returns to it's first state.
+
+## Spelling ##
+As the system enters the spelling state, you can spell the word you want. Spell like "A as in Adam" or "B as in Book" and etc. notice the status label updating as you complete your word. say "Finish" when you're done spelling. the system reports the phrase, click on OK and the search is carried on.
+It is recommended to check the candidate list before spelling, the word you want to spell might be already there.
+The system is capable of self-learning. Whenever a new word is spelled by you, the system stores that word in the grammar file so that it can be used in further recognitions. This increases the accuracy of the overall system. After each time the system will be considering the new word the next time you're going to search.
+
+## Candidate List ##
+The box displays the candidates based on the recognition. candidates or chosen based on the percentage of similarity. for example if you say "life", the system might recognize it as "knife", however, all relevant candidates that have almost the same pronunciation will be displayed in the candidate list. if such mistake may happen, use the candidate list and choose the correct word and click on "select" button.
